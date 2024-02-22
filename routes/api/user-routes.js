@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const { User, Thought } = require("../../models");
-const { db, findOneAndDelete } = require("../../models/User");
+
 
 
 router.get("/", async (req, res) => {
